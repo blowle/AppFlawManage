@@ -10,6 +10,21 @@
 		D7E2404C262E49A9000C5983 /* AppFlawManageFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E24042262E49A9000C5983 /* AppFlawManageFramework.framework */; };
 		D7E24051262E49A9000C5983 /* AppFlawManageFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E24050262E49A9000C5983 /* AppFlawManageFrameworkTests.swift */; };
 		D7E24053262E49A9000C5983 /* AppFlawManageFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E24045262E49A9000C5983 /* AppFlawManageFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7E24070262E5D56000C5983 /* Floaty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E24069262E5D56000C5983 /* Floaty.swift */; };
+		D7E24071262E5D56000C5983 /* UIView+Draggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2406A262E5D56000C5983 /* UIView+Draggable.swift */; };
+		D7E24072262E5D56000C5983 /* FloatyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2406B262E5D56000C5983 /* FloatyManager.swift */; };
+		D7E24073262E5D56000C5983 /* FloatyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2406C262E5D56000C5983 /* FloatyWindow.swift */; };
+		D7E24074262E5D56000C5983 /* FloatyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2406D262E5D56000C5983 /* FloatyDelegate.swift */; };
+		D7E24075262E5D56000C5983 /* FloatyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2406E262E5D56000C5983 /* FloatyItem.swift */; };
+		D7E24076262E5D56000C5983 /* FloatyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2406F262E5D56000C5983 /* FloatyViewController.swift */; };
+		D7E240B6262E676B000C5983 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E240B5262E676B000C5983 /* Login.storyboard */; };
+		D7E240BA262E677B000C5983 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E240B9262E677B000C5983 /* LoginViewController.swift */; };
+		D7E240BE262E6B70000C5983 /* AppFlawManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E240BD262E6B70000C5983 /* AppFlawManager.swift */; };
+		D7E240C9262E8D8C000C5983 /* LoginInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E240C8262E8D8C000C5983 /* LoginInfo.swift */; };
+		D7E240CD262E937C000C5983 /* extension+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E240CC262E937C000C5983 /* extension+UITextField.swift */; };
+		D7E240D2262EB26C000C5983 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E240D1262EB26C000C5983 /* NetworkService.swift */; };
+		D7E240D8262EC10B000C5983 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E240D7262EC10B000C5983 /* UserData.swift */; };
+		D7E2412C26324298000C5983 /* IssueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2412B26324298000C5983 /* IssueModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +44,21 @@
 		D7E2404B262E49A9000C5983 /* AppFlawManageFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppFlawManageFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E24050262E49A9000C5983 /* AppFlawManageFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlawManageFrameworkTests.swift; sourceTree = "<group>"; };
 		D7E24052262E49A9000C5983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E24069262E5D56000C5983 /* Floaty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floaty.swift; sourceTree = "<group>"; };
+		D7E2406A262E5D56000C5983 /* UIView+Draggable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Draggable.swift"; sourceTree = "<group>"; };
+		D7E2406B262E5D56000C5983 /* FloatyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyManager.swift; sourceTree = "<group>"; };
+		D7E2406C262E5D56000C5983 /* FloatyWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyWindow.swift; sourceTree = "<group>"; };
+		D7E2406D262E5D56000C5983 /* FloatyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyDelegate.swift; sourceTree = "<group>"; };
+		D7E2406E262E5D56000C5983 /* FloatyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyItem.swift; sourceTree = "<group>"; };
+		D7E2406F262E5D56000C5983 /* FloatyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyViewController.swift; sourceTree = "<group>"; };
+		D7E240B5262E676B000C5983 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		D7E240B9262E677B000C5983 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D7E240BD262E6B70000C5983 /* AppFlawManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlawManager.swift; sourceTree = "<group>"; };
+		D7E240C8262E8D8C000C5983 /* LoginInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInfo.swift; sourceTree = "<group>"; };
+		D7E240CC262E937C000C5983 /* extension+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+UITextField.swift"; sourceTree = "<group>"; };
+		D7E240D1262EB26C000C5983 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		D7E240D7262EC10B000C5983 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		D7E2412B26324298000C5983 /* IssueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +101,10 @@
 		D7E24044262E49A9000C5983 /* AppFlawManageFramework */ = {
 			isa = PBXGroup;
 			children = (
+				D7E240D0262EA885000C5983 /* Network */,
+				D7E240B4262E675E000C5983 /* Login */,
+				D7E240B3262E6262000C5983 /* Main */,
+				D7E2405E262E56C1000C5983 /* Floaty */,
 				D7E24045262E49A9000C5983 /* AppFlawManageFramework.h */,
 				D7E24046262E49A9000C5983 /* Info.plist */,
 			);
@@ -84,6 +118,57 @@
 				D7E24052262E49A9000C5983 /* Info.plist */,
 			);
 			path = AppFlawManageFrameworkTests;
+			sourceTree = "<group>";
+		};
+		D7E2405E262E56C1000C5983 /* Floaty */ = {
+			isa = PBXGroup;
+			children = (
+				D7E24069262E5D56000C5983 /* Floaty.swift */,
+				D7E2406D262E5D56000C5983 /* FloatyDelegate.swift */,
+				D7E2406E262E5D56000C5983 /* FloatyItem.swift */,
+				D7E2406B262E5D56000C5983 /* FloatyManager.swift */,
+				D7E2406F262E5D56000C5983 /* FloatyViewController.swift */,
+				D7E2406C262E5D56000C5983 /* FloatyWindow.swift */,
+				D7E2406A262E5D56000C5983 /* UIView+Draggable.swift */,
+			);
+			path = Floaty;
+			sourceTree = "<group>";
+		};
+		D7E240B3262E6262000C5983 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D7E240BD262E6B70000C5983 /* AppFlawManager.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D7E240B4262E675E000C5983 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D7E240B5262E676B000C5983 /* Login.storyboard */,
+				D7E240B9262E677B000C5983 /* LoginViewController.swift */,
+				D7E240C8262E8D8C000C5983 /* LoginInfo.swift */,
+				D7E240CC262E937C000C5983 /* extension+UITextField.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D7E240D0262EA885000C5983 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D7E2412A2632421A000C5983 /* Model */,
+				D7E240D1262EB26C000C5983 /* NetworkService.swift */,
+				D7E240D7262EC10B000C5983 /* UserData.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D7E2412A2632421A000C5983 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7E2412B26324298000C5983 /* IssueModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,11 +227,15 @@
 		D7E24039262E49A8000C5983 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					D7E24041262E49A9000C5983 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					D7E2404A262E49A9000C5983 = {
 						CreatedOnToolsVersion = 12.4;
@@ -177,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E240B6262E676B000C5983 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +284,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E240D8262EC10B000C5983 /* UserData.swift in Sources */,
+				D7E24073262E5D56000C5983 /* FloatyWindow.swift in Sources */,
+				D7E24072262E5D56000C5983 /* FloatyManager.swift in Sources */,
+				D7E24071262E5D56000C5983 /* UIView+Draggable.swift in Sources */,
+				D7E24070262E5D56000C5983 /* Floaty.swift in Sources */,
+				D7E240BE262E6B70000C5983 /* AppFlawManager.swift in Sources */,
+				D7E240BA262E677B000C5983 /* LoginViewController.swift in Sources */,
+				D7E24074262E5D56000C5983 /* FloatyDelegate.swift in Sources */,
+				D7E24075262E5D56000C5983 /* FloatyItem.swift in Sources */,
+				D7E24076262E5D56000C5983 /* FloatyViewController.swift in Sources */,
+				D7E240C9262E8D8C000C5983 /* LoginInfo.swift in Sources */,
+				D7E2412C26324298000C5983 /* IssueModel.swift in Sources */,
+				D7E240D2262EB26C000C5983 /* NetworkService.swift in Sources */,
+				D7E240CD262E937C000C5983 /* extension+UITextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -326,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -341,6 +445,7 @@
 		D7E24057262E49A9000C5983 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = U4T3R7AY6X;
@@ -357,14 +462,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyc.AppFlawManageFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D7E24058262E49A9000C5983 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = U4T3R7AY6X;
@@ -381,14 +489,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyc.AppFlawManageFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		D7E2405A262E49A9000C5983 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4T3R7AY6X;
 				INFOPLIST_FILE = AppFlawManageFrameworkTests/Info.plist;
@@ -407,6 +517,7 @@
 		D7E2405B262E49A9000C5983 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4T3R7AY6X;
 				INFOPLIST_FILE = AppFlawManageFrameworkTests/Info.plist;
